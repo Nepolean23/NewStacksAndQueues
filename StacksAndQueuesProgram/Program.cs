@@ -19,8 +19,18 @@
 //AbilityToPeakAndPop.Display();
 
 //Performing Enqueue Operations
-LinkedListEnqueue enqueue= new LinkedListEnqueue();
-enqueue.Enqueue(56);
-enqueue.Enqueue(30);
-enqueue.Enqueue(70);
-enqueue.Display();
+//LinkedListEnqueue enqueue= new LinkedListEnqueue();
+//enqueue.Enqueue(56);
+//enqueue.Enqueue(30);
+//enqueue.Enqueue(70);
+//enqueue.Display();
+
+//Performing Dequeue Operations
+LinkedListDequeue dequeue= new LinkedListDequeue();
+dequeue.Enqueue(56);
+dequeue.Enqueue(30);
+dequeue.Enqueue(70);
+dequeue.Dequeue(56);
+dequeue.Dequeue(30);
+dequeue.Dequeue(70);
+dequeue.Display();
