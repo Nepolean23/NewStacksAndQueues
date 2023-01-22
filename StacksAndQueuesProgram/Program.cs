@@ -8,12 +8,18 @@
 //List.Display();
 
 //Performing of peek and pop operations
-AbilityToPeakAndPop AbilityToPeakAndPop=new AbilityToPeakAndPop();
-AbilityToPeakAndPop.push(70);
-AbilityToPeakAndPop.push(30);
-AbilityToPeakAndPop.push(56);
-AbilityToPeakAndPop.Display();
-AbilityToPeakAndPop.peek();
-AbilityToPeakAndPop.pop();
-AbilityToPeakAndPop.IsEmpty();
-AbilityToPeakAndPop.Display();
+//AbilityToPeakAndPop AbilityToPeakAndPop=new AbilityToPeakAndPop();
+//AbilityToPeakAndPop.push(70);
+//AbilityToPeakAndPop.push(30);
+//AbilityToPeakAndPop.push(56);
+//AbilityToPeakAndPop.Display();
+//AbilityToPeakAndPop.peek();
+//AbilityToPeakAndPop.pop();
+//AbilityToPeakAndPop.IsEmpty();
+//AbilityToPeakAndPop.Display();
+
+LinkedListEnqueue enqueue= new LinkedListEnqueue();
+enqueue.Enqueue(56);
+enqueue.Enqueue(30);
+enqueue.Enqueue(70);
+enqueue.Display();
